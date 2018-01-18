@@ -56,7 +56,7 @@ function isLandscape() {
 
 })()
 
-var baseURL = "/portfolio-2018";
+var baseURL = "/";
 
 $( document ).ready(function() {
 	
