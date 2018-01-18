@@ -1,0 +1,6 @@
+
+
+{{ $scrollifyJS := index .Site.Data.js.hash "jquery.scrollify.js" }}
+<script src="{{ (printf "/js/%s" $scrollifyJS) | absURL }}"></script>    
+{{ $easingsJS := index .Site.Data.js.hash "easings.js" }}
+<script src="{{ (printf "/js/%s" $easingsJS) | absURL }}"></script>

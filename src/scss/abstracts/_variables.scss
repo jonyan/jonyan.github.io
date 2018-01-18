@@ -1,0 +1,86 @@
+
+//Bootstrap Override Variables
+$link-color: #333333;
+
+$grid-gutter-width: 2.5vw;
+$font-size: 18px;
+$font-family-base:
+  "akkurat-light",
+  -apple-system,
+  system-ui,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  "Roboto",
+  "Helvetica Neue", Arial, sans-serif;
+
+$line-height-lg: 1.75;
+// $line-height-sm: 1.75;
+// $font-size-base: 1.25rem;
+$line-height-base: 1.75;
+
+
+
+
+//Global Variables
+$background-color: white;
+$cool-gray: #F7FAFC;
+$body-color: #333333;
+$secondary-text-color: #B3B3B3;
+$tertiary-text-color: #7F7F7F;
+
+$container-vertical-margin: 6rem;
+$margin: 5vw;
+$baseURL: '/portfolio-2018';
+
+
+
+//Nav Variables
+$homepage-vertical-margin: 5vh;
+
+//Homepage Variables
+// $home-tile-img-height: 400px;
+
+//Bootstrap Override
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 900px,
+  xl: 1200px,
+  xxl: 1600px
+);
+
+// Bootstrap Override
+$container-max-widths: (
+  xs: 90vw,
+  sm: 85vw,
+  md: 85vw,
+  lg: 85vw,
+  xl: 88vw,
+  xxl: 1400px
+);
+
+$breakpoints: (
+	'small': (min-width: 375px),
+	'small-image': (max-width: 375px),
+	'medium': (min-width: 720px),
+	'medium-image': (max-width: 720px),
+	'large': (min-width: 1080px),
+	'large-image': (max-width: 1080px),
+	'huge': (min-width: 1200px),
+	'huge-image': (max-width: 1200px)
+);
+
+
+
+// small is 375 - 719 | Two Columns
+// medium is 720 - 1079 | Six Columns
+// large is 1080 - 1199 | 12 Columns
+// huge is > 1200 | 12 Columns
+
+// @media (min-width: 375px)
+// @media (min-width: 720px)
+
+// @media (min-width: 1080px)
+
+// @media (min-width: 1200px)

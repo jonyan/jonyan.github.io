@@ -1,0 +1,35 @@
+@import "abstracts/_variables";
+
+.viewport-height {
+	height: 100vh;
+}
+
+.viewport-width {
+	width: 100vw;
+}
+
+.container-vertical-margin-top {
+	margin-top: $container-vertical-margin;
+}
+
+.container-vertical-padding-bottom {
+	padding-bottom: $container-vertical-margin;
+}
+
+.container-vertical-margin {
+	margin-top: $container-vertical-margin;
+	margin-bottom: $container-vertical-margin;
+}
+
+.container-vertical-padding {
+	padding-top: $container-vertical-margin;
+	padding-bottom: $container-vertical-margin;
+}
+
+.viewport-dimensions {
+	@extend .viewport-height;
+	@extend .viewport-width;
+}
+
+
+
