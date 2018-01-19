@@ -193,9 +193,6 @@ $( document ).ready(function() {
 	$('#nav-link-three').click(function() {
 		toggleNavMenu();
 	});
-	$('#nav-link-four').click(function() {
-		toggleNavMenu();
-	});
 	$('#nav-link-five').click(function() {
 		toggleNavMenu();
 	});
